@@ -1,1 +1,1 @@
-Aplikasi online shop yang dapat di 
+Aplikasi online shop yang dapat di install
