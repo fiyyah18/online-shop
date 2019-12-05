@@ -1,0 +1,375 @@
+/*
+Script-Tutorials - Responsive Bootstrap Template
+ * Author: Godwin Okeagu @script-tutorials
+ * Website: https://www.script-tutorials.com
+*/
+/*Breaks
+------------------------------------*/
+hr {
+  margin: 30px 0;
+}
+/*Headings
+------------------------------------*/
+h1 {
+  font-size: 28px;
+  line-height: 35px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+h4 {
+  line-height: 25px;
+}
+h5 {
+  line-height: 20px;
+}
+h6 {
+  line-height: 18px;
+}
+.font-open-sans {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+  margin-top: 5px;
+  text-shadow: none;
+  font-weight: normal;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
+  margin-right: 5px;
+}
+/*Devider
+------------------------------------*/
+.devider.devider-dotted {
+  border-top: 2px dotted #eee;
+}
+.devider.devider-dashed {
+  border-top: 2px dashed #eee;
+}
+.devider.devider-db {
+  height: 5px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.devider.devider-db-dashed {
+  height: 5px;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+.devider.devider-db-dotted {
+  height: 5px;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+/*Tables
+------------------------------------*/
+/*Basic Tables*/
+.table thead > tr > th {
+  border-bottom: none;
+}
+@media (max-width: 768px) {
+  .table th.hidden-sm,
+  .table td.hidden-sm {
+    display: none !important;
+  }
+}
+/*Forms
+------------------------------------*/
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+}
+.input-group-addon {
+  border-radius: 0;
+}
+.form-control:focus {
+  border-color: #bbb;
+  box-shadow: 0 0 2px #c9c9c9;
+}
+/*Form Spacing*/
+.form-spacing .form-control {
+  margin-bottom: 15px;
+}
+/*Form Icons*/
+.input-group-addon {
+  color: #b3b3b3;
+  font-size: 14px;
+  background: #fff;
+}
+/*Button Styles
+------------------------------------*/
+.btn {
+  box-shadow: none;
+  border-radius: 0;
+}
+.btn-u {
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 6px 13px;
+  position: relative;
+  background: #00d2ff;
+  white-space: nowrap;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-u:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn-u.btn-block {
+  text-align: center;
+}
+/*Button Groups*/
+.btn-group .dropdown-menu > li > a {
+  padding: 3px 13px;
+}
+.btn-group > .btn-u,
+.btn-group-vertical > .btn-u {
+  float: left;
+  position: relative;
+}
+.btn-group > .btn-u:first-child {
+  margin-left: 0;
+}
+/*For FF Only*/
+@-moz-document url-prefix() {
+  .footer-subscribe .btn-u {
+    padding-bottom: 4px;
+  }
+}
+@media (max-width: 768px) {
+  @-moz-document url-prefix() {
+    .btn-u {
+      padding-bottom: 6px;
+    }
+  }
+}
+/*Buttons Color*/
+.btn-u:hover,
+.btn-u:focus,
+.btn-u:active,
+.btn-u.active,
+.open .dropdown-toggle.btn-u {
+  background: #5fb611;
+}
+.btn-u-split.dropdown-toggle {
+  border-left: solid 1px #5fb611;
+}
+.btn-u.btn-u-blue {
+  background: #3498db;
+}
+.btn-u.btn-u-blue:hover,
+.btn-u.btn-u-blue:focus,
+.btn-u.btn-u-blue:active,
+.btn-u.btn-u-blue.active,
+.open .dropdown-toggle.btn-u.btn-u-blue {
+  background: #2980b9;
+}
+.btn-u.btn-u-split-blue.dropdown-toggle {
+  border-left: solid 1px #2980b9;
+}
+.btn-u.btn-u-green {
+  background: #2ecc71;
+}
+.btn-u.btn-u-green:hover,
+.btn-u.btn-u-green:focus,
+.btn-u.btn-u-green:active,
+.btn-u.btn-u-green.active,
+.open .dropdown-toggle.btn-u.btn-u-green {
+  background: #2ecc71;
+}
+.btn-u.btn-u-split-green.dropdown-toggle {
+  border-left: solid 1px #2ecc71;
+}
+.btn-u.btn-u-default {
+  background: #95a5a6;
+}
+.btn-u.btn-u-default:hover,
+.btn-u.btn-u-default:focus,
+.btn-u.btn-u-default:active,
+.btn-u.btn-u-default.active,
+.open .dropdown-toggle.btn-u.btn-u-default {
+  background: #7f8c8d;
+}
+.btn-u.btn-u-split-default.dropdown-toggle {
+  border-left: solid 1px #7f8c8d;
+}
+/*Bordered Buttons*/
+.btn-u.btn-brd {
+  color: #555;
+  background: none;
+  padding: 5px 13px;
+  border: solid 1px transparent;
+}
+.btn-u.btn-brd-width-2 {
+  padding: 7px 18px;
+  border-width: 2px;
+}
+.btn-u.btn-brd:hover {
+  background: none;
+}
+.btn-u.btn-brd:focus {
+  background: none;
+}
+.btn-u.btn-brd.btn-brd-hover:hover {
+  color: #fff !important;
+}
+.btn-u.btn-brd {
+  border-color: #00d2ff;
+}
+.btn-u.btn-brd:hover {
+  color: #5fb611;
+  border-color: #5fb611;
+}
+.btn-u.btn-brd.btn-brd-hover:hover {
+  background: #5fb611;
+}
+.btn-u.btn-brd.btn-u-default {
+  border-color: #95a5a6;
+}
+.btn-u.btn-brd.btn-u-default:hover {
+  color: #7f8c8d;
+  border-color: #7f8c8d;
+}
+.btn-u.btn-brd.btn-u-default.btn-brd-hover:hover {
+  background: #7f8c8d;
+}
+/*Labels*/
+.label {
+  border-radius: 0;
+}
+span.label {
+  font-size: 11px;
+  font-weight: 400;
+  padding: 4px 7px;
+}
+/*Font Awesome Icon Styles*/
+i.icon-custom {
+  color: #555;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  display: inline-block;
+  border: solid 1px #555;
+}
+i.icon-2x {
+  font-size: 30px;
+}
+i.icon-3x {
+  font-size: 40px;
+}
+i.icon-4x {
+  font-size: 50px;
+}
+/* Make Font Awesome icons fixed width */
+.fa-fixed [class^="fa"],
+.fa-fixed [class*=" fa"] {
+  width: 1.25em;
+  text-align: center;
+  display: inline-block;
+}
+/*Panels (Portlets)
+------------------------------------*/
+.panel,
+.panel-heading,
+.panel-group .panel {
+  border-radius: 0;
+}
+.panel-heading {
+  color: #fff;
+  padding: 5px 15px;
+}
+/*Panel Table*/
+.panel .table {
+  margin-bottom: 0;
+}
+/*Panel Script-Tutorials*/
+.panel-u {
+  border-color: #00d2ff;
+}
+.panel-u > .panel-heading {
+  background: #00d2ff;
+}
+/*Panel Blue*/
+.panel-blue {
+  border-color: #3498db;
+}
+.panel-blue > .panel-heading {
+  background: #3498db;
+}
+/*Panel Red*/
+.panel-red {
+  border-color: #e74c3c;
+}
+.panel-red > .panel-heading {
+  background: #e74c3c;
+}
+/*Panel Green*/
+.panel-green {
+  border-color: #2ecc71;
+}
+.panel-green > .panel-heading {
+  background: #2ecc71;
+}
+/*Panel Sea*/
+.panel-sea {
+  border-color: #1abc9c;
+}
+.panel-sea > .panel-heading {
+  background: #1abc9c;
+}
+/*Panel Orange*/
+.panel-orange {
+  border-color: #e67e22;
+}
+.panel-orange > .panel-heading {
+  background: #e67e22;
+}
+/*Panel Grey*/
+.panel-grey {
+  border-color: #95a5a6;
+}
+.panel-grey > .panel-heading {
+  background: #95a5a6;
+}
+/*Panel Brown*/
+.panel-brown {
+  border-color: #9c8061;
+}
+.panel-brown > .panel-heading {
+  background: #9c8061;
+}
+/*Panel Dark Blue*/
+.panel-dark-blue {
+  border-color: #4765a0;
+}
+.panel-dark-blue > .panel-heading {
+  background: #4765a0;
+}
+/*Panel Light Green*/
+.panel-light-green {
+  border-color: #79d5b3;
+}
+.panel-light-green > .panel-heading {
+  background: #79d5b3;
+}
+/*Panel Default Dark*/
+.panel-default-dark {
+  border-color: #585f69;
+}
+.panel-default-dark > .panel-heading {
+  background: #585f69;
+}
